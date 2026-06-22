@@ -1,0 +1,17 @@
+# WorkWell — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── UI framework ──────────────────────────────────────────────────────────────
+PyQt6>=6.6.0
+
+# ── Input monitoring ──────────────────────────────────────────────────────────
+pynput>=1.7.6
+
+# ── Performance monitoring (Phase 7) ─────────────────────────────────────────
+psutil>=5.9.0
+
+# ── Packaging (optional, for binary builds) ───────────────────────────────────
+# pyinstaller>=6.0.0
+
+# ── Development / testing ─────────────────────────────────────────────────────
+pytest>=7.0.0

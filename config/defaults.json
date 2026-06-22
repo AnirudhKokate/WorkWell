@@ -1,0 +1,27 @@
+{
+  "reminder": {
+    "interval_minutes": 35,
+    "enabled": true,
+    "idle_reset_minutes": 5,
+    "snooze_minutes": 15
+  },
+  "startup": {
+    "launch_on_boot": true,
+    "minimize_to_tray": true
+  },
+  "appearance": {
+    "theme": "dark",
+    "popup_opacity": 0.92
+  },
+  "ai_assistant": {
+    "enabled": false,
+    "provider": "openai",
+    "api_key": "",
+    "model": "gpt-4o-mini"
+  },
+  "logging": {
+    "enabled": true,
+    "log_level": "INFO",
+    "log_responses": true
+  }
+}
